@@ -5,9 +5,9 @@
     "passes": 37,
     "pending": 0,
     "failures": 0,
-    "start": "2025-04-17T18:18:44.876Z",
-    "end": "2025-04-17T18:18:44.896Z",
-    "duration": 20,
+    "start": "2025-04-23T16:48:47.066Z",
+    "end": "2025-04-23T16:48:47.101Z",
+    "duration": 35,
     "testsRegistered": 37,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e78aa880-6199-41f6-9c80-8a0f772e26aa",
+      "uuid": "3d7ee1a2-6196-4b44-9659-dc07ec98b1d2",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "006d1427-73f8-4375-9f10-e625df759390",
+          "uuid": "05e0707f-7680-47cf-afce-442ad5d0011b",
           "title": "Array Utils",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/arrayUtils.test.js",
           "file": "/test/arrayUtils.test.js",
@@ -36,7 +36,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "e5a56b69-47b7-469b-abf1-8c12b7053534",
+              "uuid": "abc4fe49-b9af-456e-9d58-b9bf54ff7377",
               "title": "findMax",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/arrayUtils.test.js",
               "file": "/test/arrayUtils.test.js",
@@ -56,8 +56,8 @@
                   "context": null,
                   "code": "expect(findMax([7, 14, 3, 21])).to.equal(21);",
                   "err": {},
-                  "uuid": "03ca470b-3e0e-4026-8f20-b624be7f36cc",
-                  "parentUUID": "e5a56b69-47b7-469b-abf1-8c12b7053534",
+                  "uuid": "443a1c70-2793-41df-853c-4bfeb14f862b",
+                  "parentUUID": "abc4fe49-b9af-456e-9d58-b9bf54ff7377",
                   "isHook": false,
                   "skipped": false
                 },
@@ -74,8 +74,8 @@
                   "context": null,
                   "code": "expect(findMax([-15, -4, -9])).to.equal(-4);",
                   "err": {},
-                  "uuid": "6c3760db-e98b-41bf-8ee6-60dbe6ac7bbf",
-                  "parentUUID": "e5a56b69-47b7-469b-abf1-8c12b7053534",
+                  "uuid": "1253529d-9e18-4f7a-b317-f6e69e9c0f65",
+                  "parentUUID": "abc4fe49-b9af-456e-9d58-b9bf54ff7377",
                   "isHook": false,
                   "skipped": false
                 },
@@ -92,17 +92,17 @@
                   "context": null,
                   "code": "expect(() => findMax(\"not array\")).to.throw(\"Input must be an array\");",
                   "err": {},
-                  "uuid": "c54d5051-b697-460a-b242-575d145339b2",
-                  "parentUUID": "e5a56b69-47b7-469b-abf1-8c12b7053534",
+                  "uuid": "e25c3950-d211-45bb-b253-a4cc261ff7f7",
+                  "parentUUID": "abc4fe49-b9af-456e-9d58-b9bf54ff7377",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "03ca470b-3e0e-4026-8f20-b624be7f36cc",
-                "6c3760db-e98b-41bf-8ee6-60dbe6ac7bbf",
-                "c54d5051-b697-460a-b242-575d145339b2"
+                "443a1c70-2793-41df-853c-4bfeb14f862b",
+                "1253529d-9e18-4f7a-b317-f6e69e9c0f65",
+                "e25c3950-d211-45bb-b253-a4cc261ff7f7"
               ],
               "failures": [],
               "pending": [],
@@ -113,7 +113,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "430c44fd-738d-482b-a42b-e43ce3ca5879",
+              "uuid": "745d6f15-86b6-47f3-835d-bec7d6d03125",
               "title": "findMin",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/arrayUtils.test.js",
               "file": "/test/arrayUtils.test.js",
@@ -124,7 +124,7 @@
                   "title": "should return the min value in the array",
                   "fullTitle": "Array Utils findMin should return the min value in the array",
                   "timedOut": false,
-                  "duration": 0,
+                  "duration": 1,
                   "state": "passed",
                   "speed": "fast",
                   "pass": true,
@@ -133,8 +133,8 @@
                   "context": null,
                   "code": "expect(findMin([100, 35, 67, 4])).to.equal(4);",
                   "err": {},
-                  "uuid": "2e79903a-8d49-4343-a3ac-ee76371d242d",
-                  "parentUUID": "430c44fd-738d-482b-a42b-e43ce3ca5879",
+                  "uuid": "b0c2e1f1-280b-4f11-b3ca-834265e491eb",
+                  "parentUUID": "745d6f15-86b6-47f3-835d-bec7d6d03125",
                   "isHook": false,
                   "skipped": false
                 },
@@ -151,8 +151,8 @@
                   "context": null,
                   "code": "expect(findMin([10, 20, 30])).to.equal(10);",
                   "err": {},
-                  "uuid": "7d994c69-01c1-451b-b844-db2e1e48a9ca",
-                  "parentUUID": "430c44fd-738d-482b-a42b-e43ce3ca5879",
+                  "uuid": "e89251ec-7beb-4e09-a3e6-fc1c4eb7d3c4",
+                  "parentUUID": "745d6f15-86b6-47f3-835d-bec7d6d03125",
                   "isHook": false,
                   "skipped": false
                 },
@@ -169,28 +169,28 @@
                   "context": null,
                   "code": "expect(() => findMin(123)).to.throw(\"Input must be an array\");",
                   "err": {},
-                  "uuid": "f46adec1-98ce-4eee-a57e-72b03a740f3f",
-                  "parentUUID": "430c44fd-738d-482b-a42b-e43ce3ca5879",
+                  "uuid": "9b503ff8-a78f-463a-af13-16bd69f40766",
+                  "parentUUID": "745d6f15-86b6-47f3-835d-bec7d6d03125",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "2e79903a-8d49-4343-a3ac-ee76371d242d",
-                "7d994c69-01c1-451b-b844-db2e1e48a9ca",
-                "f46adec1-98ce-4eee-a57e-72b03a740f3f"
+                "b0c2e1f1-280b-4f11-b3ca-834265e491eb",
+                "e89251ec-7beb-4e09-a3e6-fc1c4eb7d3c4",
+                "9b503ff8-a78f-463a-af13-16bd69f40766"
               ],
               "failures": [],
               "pending": [],
               "skipped": [],
-              "duration": 0,
+              "duration": 1,
               "root": false,
               "rootEmpty": false,
               "_timeout": 2000
             },
             {
-              "uuid": "b0911164-d51a-4842-8a62-489aedb47256",
+              "uuid": "bee05fe8-51b4-4f10-90ee-54ccd422be28",
               "title": "removeDuplicates",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/arrayUtils.test.js",
               "file": "/test/arrayUtils.test.js",
@@ -210,8 +210,8 @@
                   "context": null,
                   "code": "expect(removeDuplicates([1, 2, 2, 3, 4, 4])).to.deep.equal([1, 2, 3, 4]);",
                   "err": {},
-                  "uuid": "ca7a0220-d3bf-485b-b610-e00ac05e6cb7",
-                  "parentUUID": "b0911164-d51a-4842-8a62-489aedb47256",
+                  "uuid": "e03d90aa-7b4c-4c9b-a8e7-532a9566f061",
+                  "parentUUID": "bee05fe8-51b4-4f10-90ee-54ccd422be28",
                   "isHook": false,
                   "skipped": false
                 },
@@ -228,8 +228,8 @@
                   "context": null,
                   "code": "expect(removeDuplicates([5, 6, 7])).to.deep.equal([5, 6, 7]);",
                   "err": {},
-                  "uuid": "743958f2-38d9-4806-b11a-acc18e626bfb",
-                  "parentUUID": "b0911164-d51a-4842-8a62-489aedb47256",
+                  "uuid": "a3f66708-0577-41d7-85fc-8a72abb22aff",
+                  "parentUUID": "bee05fe8-51b4-4f10-90ee-54ccd422be28",
                   "isHook": false,
                   "skipped": false
                 },
@@ -246,17 +246,17 @@
                   "context": null,
                   "code": "expect(() => removeDuplicates(null)).to.throw(\"Input must be an array\");",
                   "err": {},
-                  "uuid": "d71d0170-2355-49ee-89fa-692a4cf3155e",
-                  "parentUUID": "b0911164-d51a-4842-8a62-489aedb47256",
+                  "uuid": "bf3e525e-f192-42f8-ab78-375dd0ece46a",
+                  "parentUUID": "bee05fe8-51b4-4f10-90ee-54ccd422be28",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ca7a0220-d3bf-485b-b610-e00ac05e6cb7",
-                "743958f2-38d9-4806-b11a-acc18e626bfb",
-                "d71d0170-2355-49ee-89fa-692a4cf3155e"
+                "e03d90aa-7b4c-4c9b-a8e7-532a9566f061",
+                "a3f66708-0577-41d7-85fc-8a72abb22aff",
+                "bf3e525e-f192-42f8-ab78-375dd0ece46a"
               ],
               "failures": [],
               "pending": [],
@@ -277,7 +277,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "e1d99f20-2f46-45d4-ad77-4fa2ae1892c7",
+          "uuid": "c1986d43-a94c-49d6-bf3b-bba65bcb67ba",
           "title": "Math Utils",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/mathUtils.test.js",
           "file": "/test/mathUtils.test.js",
@@ -286,7 +286,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "55c9f7d8-a3bb-4fec-ab6f-aa6513185a5d",
+              "uuid": "41090343-4d84-4dde-941b-6acc0401a8f6",
               "title": "add",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/mathUtils.test.js",
               "file": "/test/mathUtils.test.js",
@@ -306,15 +306,15 @@
                   "context": null,
                   "code": "expect(add(2, 5)).to.equal(7);",
                   "err": {},
-                  "uuid": "ce478a43-4dcd-4937-9bce-53cf6db8a15d",
-                  "parentUUID": "55c9f7d8-a3bb-4fec-ab6f-aa6513185a5d",
+                  "uuid": "60f4b878-73cd-4d56-8f0d-376ed4c14dfa",
+                  "parentUUID": "41090343-4d84-4dde-941b-6acc0401a8f6",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "ce478a43-4dcd-4937-9bce-53cf6db8a15d"
+                "60f4b878-73cd-4d56-8f0d-376ed4c14dfa"
               ],
               "failures": [],
               "pending": [],
@@ -325,7 +325,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "5b1e6000-5f7a-4f4a-bb41-55a91b2dd4af",
+              "uuid": "6c085579-e6fa-458a-a638-2e803faa294c",
               "title": "subtract",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/mathUtils.test.js",
               "file": "/test/mathUtils.test.js",
@@ -345,15 +345,15 @@
                   "context": null,
                   "code": "expect(subtract(5, 4)).to.equal(1);",
                   "err": {},
-                  "uuid": "c0cf0b2a-a36f-40e7-ba93-9e5b606fa5e7",
-                  "parentUUID": "5b1e6000-5f7a-4f4a-bb41-55a91b2dd4af",
+                  "uuid": "d46500a9-f0dd-4c5e-a2c1-4de10283ea7f",
+                  "parentUUID": "6c085579-e6fa-458a-a638-2e803faa294c",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "c0cf0b2a-a36f-40e7-ba93-9e5b606fa5e7"
+                "d46500a9-f0dd-4c5e-a2c1-4de10283ea7f"
               ],
               "failures": [],
               "pending": [],
@@ -364,7 +364,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "f94a2cd7-eadf-42e2-952d-270b7fb79d80",
+              "uuid": "022853aa-ab21-4835-b6f8-58c9cd3f85e7",
               "title": "multiply",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/mathUtils.test.js",
               "file": "/test/mathUtils.test.js",
@@ -384,15 +384,15 @@
                   "context": null,
                   "code": "expect(multiply(5, 3)).to.equal(15);",
                   "err": {},
-                  "uuid": "f4466aba-337a-429b-a9a6-e784bfd6a1a6",
-                  "parentUUID": "f94a2cd7-eadf-42e2-952d-270b7fb79d80",
+                  "uuid": "5a78a221-2352-4b72-948e-d16acb01f4ee",
+                  "parentUUID": "022853aa-ab21-4835-b6f8-58c9cd3f85e7",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "f4466aba-337a-429b-a9a6-e784bfd6a1a6"
+                "5a78a221-2352-4b72-948e-d16acb01f4ee"
               ],
               "failures": [],
               "pending": [],
@@ -403,7 +403,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "8a1aab49-0f72-499a-ab8a-0f4372a507ae",
+              "uuid": "214a6dcc-8bbb-4140-bdb9-1195600c377c",
               "title": "divide",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/mathUtils.test.js",
               "file": "/test/mathUtils.test.js",
@@ -423,8 +423,8 @@
                   "context": null,
                   "code": "expect(divide(9, 3)).to.equal(3);",
                   "err": {},
-                  "uuid": "cb790983-6466-4fbd-9039-a13e4a361a1f",
-                  "parentUUID": "8a1aab49-0f72-499a-ab8a-0f4372a507ae",
+                  "uuid": "0c1bf603-4a2d-4b23-b5b0-ae120a1e6889",
+                  "parentUUID": "214a6dcc-8bbb-4140-bdb9-1195600c377c",
                   "isHook": false,
                   "skipped": false
                 },
@@ -441,16 +441,16 @@
                   "context": null,
                   "code": "expect(() => divide(1, 0)).to.throw(\"Cannot divide by zero\");",
                   "err": {},
-                  "uuid": "ca66185c-234e-4ac2-b0fd-4b47b6a3b81b",
-                  "parentUUID": "8a1aab49-0f72-499a-ab8a-0f4372a507ae",
+                  "uuid": "024088f6-99ae-4aa8-ae77-3696d806df1f",
+                  "parentUUID": "214a6dcc-8bbb-4140-bdb9-1195600c377c",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "cb790983-6466-4fbd-9039-a13e4a361a1f",
-                "ca66185c-234e-4ac2-b0fd-4b47b6a3b81b"
+                "0c1bf603-4a2d-4b23-b5b0-ae120a1e6889",
+                "024088f6-99ae-4aa8-ae77-3696d806df1f"
               ],
               "failures": [],
               "pending": [],
@@ -471,7 +471,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "f20cbd3d-83e3-4f3c-bf5e-ad4838e3c8dd",
+          "uuid": "0b64b426-d167-4fb5-bc21-2d106403696f",
           "title": "String Utils",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/stringUtils.test.js",
           "file": "/test/stringUtils.test.js",
@@ -480,7 +480,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "de591950-4b26-4ba3-9537-dffbf390f18c",
+              "uuid": "72273ab6-5f0c-49fa-a341-01221c969eee",
               "title": "capitalize",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/stringUtils.test.js",
               "file": "/test/stringUtils.test.js",
@@ -500,8 +500,8 @@
                   "context": null,
                   "code": "expect(capitalize(\"hello\")).to.equal(\"Hello\");",
                   "err": {},
-                  "uuid": "2517cec7-76f2-4cbf-8de2-671ff76ebc10",
-                  "parentUUID": "de591950-4b26-4ba3-9537-dffbf390f18c",
+                  "uuid": "9997224f-4025-46b3-bec1-3bc23c444415",
+                  "parentUUID": "72273ab6-5f0c-49fa-a341-01221c969eee",
                   "isHook": false,
                   "skipped": false
                 },
@@ -518,16 +518,16 @@
                   "context": null,
                   "code": "expect(() => capitalize(123)).to.throw(\"Input must be a string\");",
                   "err": {},
-                  "uuid": "8a4a0d0b-0602-48d9-ba9d-aa1f2821a8a7",
-                  "parentUUID": "de591950-4b26-4ba3-9537-dffbf390f18c",
+                  "uuid": "ed30c3ad-dabf-4001-a174-0690be2fc322",
+                  "parentUUID": "72273ab6-5f0c-49fa-a341-01221c969eee",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "2517cec7-76f2-4cbf-8de2-671ff76ebc10",
-                "8a4a0d0b-0602-48d9-ba9d-aa1f2821a8a7"
+                "9997224f-4025-46b3-bec1-3bc23c444415",
+                "ed30c3ad-dabf-4001-a174-0690be2fc322"
               ],
               "failures": [],
               "pending": [],
@@ -538,7 +538,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "e85a4baf-1a65-4251-b665-c5150000a6c6",
+              "uuid": "c9254b1e-5ce0-42cd-b744-32df0325375e",
               "title": "reverseString",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/stringUtils.test.js",
               "file": "/test/stringUtils.test.js",
@@ -558,8 +558,8 @@
                   "context": null,
                   "code": "expect(reverseString(\"world\")).to.equal(\"dlrow\");",
                   "err": {},
-                  "uuid": "3d2da01d-a3a6-447c-91ec-6ec3a5d0f927",
-                  "parentUUID": "e85a4baf-1a65-4251-b665-c5150000a6c6",
+                  "uuid": "ac9f5971-15dc-455b-b68a-5fbc818398ee",
+                  "parentUUID": "c9254b1e-5ce0-42cd-b744-32df0325375e",
                   "isHook": false,
                   "skipped": false
                 },
@@ -576,16 +576,16 @@
                   "context": null,
                   "code": "expect(() => reverseString(123)).to.throw(\"Input must be a string\");",
                   "err": {},
-                  "uuid": "93fe7b85-63de-4c5f-b663-3009418736e5",
-                  "parentUUID": "e85a4baf-1a65-4251-b665-c5150000a6c6",
+                  "uuid": "0243b659-5516-4562-9ae1-54a53a060489",
+                  "parentUUID": "c9254b1e-5ce0-42cd-b744-32df0325375e",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "3d2da01d-a3a6-447c-91ec-6ec3a5d0f927",
-                "93fe7b85-63de-4c5f-b663-3009418736e5"
+                "ac9f5971-15dc-455b-b68a-5fbc818398ee",
+                "0243b659-5516-4562-9ae1-54a53a060489"
               ],
               "failures": [],
               "pending": [],
@@ -596,7 +596,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "cdfb5b4d-eff8-467c-9c04-063fb6db6f6c",
+              "uuid": "7eeb7ed6-ae85-4d1c-b81f-6e420fb646c4",
               "title": "isPalindrome",
               "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/stringUtils.test.js",
               "file": "/test/stringUtils.test.js",
@@ -616,8 +616,8 @@
                   "context": null,
                   "code": "expect(isPalindrome(\"madam\")).to.be.true;",
                   "err": {},
-                  "uuid": "7cbf092f-9d03-49a2-940a-d49ee165df41",
-                  "parentUUID": "cdfb5b4d-eff8-467c-9c04-063fb6db6f6c",
+                  "uuid": "7d6b777a-a23e-4f54-9fe5-2545eaedfe8e",
+                  "parentUUID": "7eeb7ed6-ae85-4d1c-b81f-6e420fb646c4",
                   "isHook": false,
                   "skipped": false
                 },
@@ -634,8 +634,8 @@
                   "context": null,
                   "code": "expect(isPalindrome(\"check\")).to.be.false;",
                   "err": {},
-                  "uuid": "3940d76a-0acb-4f19-9cbf-812946678bfa",
-                  "parentUUID": "cdfb5b4d-eff8-467c-9c04-063fb6db6f6c",
+                  "uuid": "3960b0e3-dbd3-45bb-90b3-b78bcf271cc5",
+                  "parentUUID": "7eeb7ed6-ae85-4d1c-b81f-6e420fb646c4",
                   "isHook": false,
                   "skipped": false
                 },
@@ -652,17 +652,17 @@
                   "context": null,
                   "code": "expect(() => isPalindrome(123)).to.throw(\"Input must be a string\");",
                   "err": {},
-                  "uuid": "4bfd7e2b-5470-4da9-985e-dc82cb8f488e",
-                  "parentUUID": "cdfb5b4d-eff8-467c-9c04-063fb6db6f6c",
+                  "uuid": "8a39e809-165f-4e9d-a954-46db9f0b60c1",
+                  "parentUUID": "7eeb7ed6-ae85-4d1c-b81f-6e420fb646c4",
                   "isHook": false,
                   "skipped": false
                 }
               ],
               "suites": [],
               "passes": [
-                "7cbf092f-9d03-49a2-940a-d49ee165df41",
-                "3940d76a-0acb-4f19-9cbf-812946678bfa",
-                "4bfd7e2b-5470-4da9-985e-dc82cb8f488e"
+                "7d6b777a-a23e-4f54-9fe5-2545eaedfe8e",
+                "3960b0e3-dbd3-45bb-90b3-b78bcf271cc5",
+                "8a39e809-165f-4e9d-a954-46db9f0b60c1"
               ],
               "failures": [],
               "pending": [],
@@ -683,7 +683,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "03276963-faff-43c3-9476-6081e2107475",
+          "uuid": "bdb5f608-1e1e-4792-a7ae-c26b49be8d43",
           "title": "Student Knowledge Checker",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/studentKnowledgeChecker.test.js",
           "file": "/test/studentKnowledgeChecker.test.js",
@@ -694,7 +694,7 @@
               "title": "should return true when all answers are correct",
               "fullTitle": "Student Knowledge Checker should return true when all answers are correct",
               "timedOut": false,
-              "duration": 1,
+              "duration": 0,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -703,8 +703,8 @@
               "context": null,
               "code": "const studentAnswers = { question1: \"A\", question2: \"B\" };\nconst correctAnswers = { question1: \"A\", question2: \"B\" };\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.be.true;",
               "err": {},
-              "uuid": "fa2e290b-2e32-4a37-8f38-4edf75d64bd5",
-              "parentUUID": "03276963-faff-43c3-9476-6081e2107475",
+              "uuid": "e345fe0c-b449-44fc-8ae7-4cba1e1202aa",
+              "parentUUID": "bdb5f608-1e1e-4792-a7ae-c26b49be8d43",
               "isHook": false,
               "skipped": false
             },
@@ -721,8 +721,8 @@
               "context": null,
               "code": "const studentAnswers = { question1: \"A\", question2: \"B\" };\nconst correctAnswers = { question1: \"A\", question2: \"C\" };\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.be.false;",
               "err": {},
-              "uuid": "b8f6f738-4276-41f8-b90a-95c2a69c9781",
-              "parentUUID": "03276963-faff-43c3-9476-6081e2107475",
+              "uuid": "8054f9a1-0c4b-4f9e-9499-1de834d8325e",
+              "parentUUID": "bdb5f608-1e1e-4792-a7ae-c26b49be8d43",
               "isHook": false,
               "skipped": false
             },
@@ -739,8 +739,8 @@
               "context": null,
               "code": "const studentAnswers = { question1: \"A\", question3: \"B\" };\nconst correctAnswers = { question1: \"A\", question2: \"B\" };\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.be.false;",
               "err": {},
-              "uuid": "5cef561f-900c-483f-aaca-b0b0ee513f2d",
-              "parentUUID": "03276963-faff-43c3-9476-6081e2107475",
+              "uuid": "65d9be61-8482-463b-91c2-ba73d8eba258",
+              "parentUUID": "bdb5f608-1e1e-4792-a7ae-c26b49be8d43",
               "isHook": false,
               "skipped": false
             },
@@ -757,29 +757,29 @@
               "context": null,
               "code": "const studentAnswers = { question1: \"A\" };\nconst correctAnswers = { question1: \"A\", question2: \"B\" };\nexpect(checkStudentKnowledge(studentAnswers, correctAnswers)).to.be.false;",
               "err": {},
-              "uuid": "70c8826f-0a71-43e3-8910-e16acfcbc66d",
-              "parentUUID": "03276963-faff-43c3-9476-6081e2107475",
+              "uuid": "c262715c-8e8c-4e00-8ea3-bfba755c3101",
+              "parentUUID": "bdb5f608-1e1e-4792-a7ae-c26b49be8d43",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "fa2e290b-2e32-4a37-8f38-4edf75d64bd5",
-            "b8f6f738-4276-41f8-b90a-95c2a69c9781",
-            "5cef561f-900c-483f-aaca-b0b0ee513f2d",
-            "70c8826f-0a71-43e3-8910-e16acfcbc66d"
+            "e345fe0c-b449-44fc-8ae7-4cba1e1202aa",
+            "8054f9a1-0c4b-4f9e-9499-1de834d8325e",
+            "65d9be61-8482-463b-91c2-ba73d8eba258",
+            "c262715c-8e8c-4e00-8ea3-bfba755c3101"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1,
+          "duration": 0,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "64aa99c7-b6ac-474d-a48b-05b75db06bb2",
+          "uuid": "5451338f-cd6e-459d-af09-e2e37288679e",
           "title": "filterUsersByAge",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/usersListUtils.test.js",
           "file": "/test/usersListUtils.test.js",
@@ -799,8 +799,8 @@
               "context": null,
               "code": "const result = filterUsersByAge(sampleUsers, 21, 30);\nexpect(result).to.deep.equal([\n  { id: 1, name: 'Vasya', age: 25, email: 'vasya@example.com' },\n  { id: 2, name: 'Gena', age: 30, email: 'gena@example.com' },\n]);",
               "err": {},
-              "uuid": "fa007f0a-79d6-48c8-aad1-08e26d84ec7d",
-              "parentUUID": "64aa99c7-b6ac-474d-a48b-05b75db06bb2",
+              "uuid": "fb407ba2-c45f-401f-9586-64414b344358",
+              "parentUUID": "5451338f-cd6e-459d-af09-e2e37288679e",
               "isHook": false,
               "skipped": false
             },
@@ -817,8 +817,8 @@
               "context": null,
               "code": "const result = filterUsersByAge(sampleUsers, 40, 50);\nexpect(result).to.deep.equal([]);",
               "err": {},
-              "uuid": "853416ec-9406-4aef-9feb-c765c6b72ac1",
-              "parentUUID": "64aa99c7-b6ac-474d-a48b-05b75db06bb2",
+              "uuid": "b65c6365-846d-4f84-b2f7-d2722970f8af",
+              "parentUUID": "5451338f-cd6e-459d-af09-e2e37288679e",
               "isHook": false,
               "skipped": false
             },
@@ -835,17 +835,17 @@
               "context": null,
               "code": "expect(() => filterUsersByAge(null, 18, 25)).to.throw('Users must be an array');",
               "err": {},
-              "uuid": "658c00ac-1b91-4f46-beee-85ed79a5c9a9",
-              "parentUUID": "64aa99c7-b6ac-474d-a48b-05b75db06bb2",
+              "uuid": "7cc7403f-0e39-46a5-bc96-c174b2de286e",
+              "parentUUID": "5451338f-cd6e-459d-af09-e2e37288679e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "fa007f0a-79d6-48c8-aad1-08e26d84ec7d",
-            "853416ec-9406-4aef-9feb-c765c6b72ac1",
-            "658c00ac-1b91-4f46-beee-85ed79a5c9a9"
+            "fb407ba2-c45f-401f-9586-64414b344358",
+            "b65c6365-846d-4f84-b2f7-d2722970f8af",
+            "7cc7403f-0e39-46a5-bc96-c174b2de286e"
           ],
           "failures": [],
           "pending": [],
@@ -856,7 +856,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "292eacca-5faf-4f4e-b807-0e2dbb76d968",
+          "uuid": "12a81acc-296e-4e26-8cb6-0be186a449d0",
           "title": "sortUsersByName",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/usersListUtils.test.js",
           "file": "/test/usersListUtils.test.js",
@@ -867,7 +867,7 @@
               "title": "should sort users alphabetically by name",
               "fullTitle": "sortUsersByName should sort users alphabetically by name",
               "timedOut": false,
-              "duration": 7,
+              "duration": 12,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -876,8 +876,8 @@
               "context": null,
               "code": "const result = sortUsersByName(sampleUsers);\nexpect(result.map(u => u.name)).to.deep.equal(['Gena', 'Gora', 'Vasya']);",
               "err": {},
-              "uuid": "2d2d199c-2431-46c1-899b-3a98000e1126",
-              "parentUUID": "292eacca-5faf-4f4e-b807-0e2dbb76d968",
+              "uuid": "0f64571d-d32a-4568-902c-0ce176fc12a2",
+              "parentUUID": "12a81acc-296e-4e26-8cb6-0be186a449d0",
               "isHook": false,
               "skipped": false
             },
@@ -894,8 +894,8 @@
               "context": null,
               "code": "const original = [...sampleUsers];\nsortUsersByName(sampleUsers);\nexpect(sampleUsers).to.deep.equal(original);",
               "err": {},
-              "uuid": "0be27792-c9ae-4081-af63-2d877ec4d5b3",
-              "parentUUID": "292eacca-5faf-4f4e-b807-0e2dbb76d968",
+              "uuid": "4bf10c0c-ff86-4f94-9513-e84733250fc5",
+              "parentUUID": "12a81acc-296e-4e26-8cb6-0be186a449d0",
               "isHook": false,
               "skipped": false
             },
@@ -912,28 +912,28 @@
               "context": null,
               "code": "expect(() => sortUsersByName(undefined)).to.throw('Users must be an array');",
               "err": {},
-              "uuid": "9ac88253-adfd-4327-acb2-c11dad33d8f1",
-              "parentUUID": "292eacca-5faf-4f4e-b807-0e2dbb76d968",
+              "uuid": "6134fdb0-b93b-44ea-b187-1676a9f4995d",
+              "parentUUID": "12a81acc-296e-4e26-8cb6-0be186a449d0",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2d2d199c-2431-46c1-899b-3a98000e1126",
-            "0be27792-c9ae-4081-af63-2d877ec4d5b3",
-            "9ac88253-adfd-4327-acb2-c11dad33d8f1"
+            "0f64571d-d32a-4568-902c-0ce176fc12a2",
+            "4bf10c0c-ff86-4f94-9513-e84733250fc5",
+            "6134fdb0-b93b-44ea-b187-1676a9f4995d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7,
+          "duration": 12,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "129bb0ac-9396-4024-96db-6a40ae24cec1",
+          "uuid": "22ef226b-df72-4a31-91d8-306aa7d01b3b",
           "title": "findUserById",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/usersListUtils.test.js",
           "file": "/test/usersListUtils.test.js",
@@ -953,8 +953,8 @@
               "context": null,
               "code": "const result = findUserById(sampleUsers, 2);\nexpect(result.name).to.equal('Gena');",
               "err": {},
-              "uuid": "add668ad-2a23-4e85-91ae-f529dcd9872b",
-              "parentUUID": "129bb0ac-9396-4024-96db-6a40ae24cec1",
+              "uuid": "3549beda-c6b9-4677-980c-61aefbf197f3",
+              "parentUUID": "22ef226b-df72-4a31-91d8-306aa7d01b3b",
               "isHook": false,
               "skipped": false
             },
@@ -971,8 +971,8 @@
               "context": null,
               "code": "const result = findUserById(sampleUsers, 99);\nexpect(result).to.be.null;",
               "err": {},
-              "uuid": "4f086b70-905d-42ed-8d02-8597ff0cbc87",
-              "parentUUID": "129bb0ac-9396-4024-96db-6a40ae24cec1",
+              "uuid": "7ac6c0f3-0572-4b38-a6b3-209ba7bc3451",
+              "parentUUID": "22ef226b-df72-4a31-91d8-306aa7d01b3b",
               "isHook": false,
               "skipped": false
             },
@@ -989,17 +989,17 @@
               "context": null,
               "code": "expect(() => findUserById({}, 1)).to.throw('Users must be an array');",
               "err": {},
-              "uuid": "a3b6f3f2-d86e-4666-b469-41f17d6878be",
-              "parentUUID": "129bb0ac-9396-4024-96db-6a40ae24cec1",
+              "uuid": "66074b93-9cf3-4aa2-8530-f5424059c4a9",
+              "parentUUID": "22ef226b-df72-4a31-91d8-306aa7d01b3b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "add668ad-2a23-4e85-91ae-f529dcd9872b",
-            "4f086b70-905d-42ed-8d02-8597ff0cbc87",
-            "a3b6f3f2-d86e-4666-b469-41f17d6878be"
+            "3549beda-c6b9-4677-980c-61aefbf197f3",
+            "7ac6c0f3-0572-4b38-a6b3-209ba7bc3451",
+            "66074b93-9cf3-4aa2-8530-f5424059c4a9"
           ],
           "failures": [],
           "pending": [],
@@ -1010,7 +1010,7 @@
           "_timeout": 2000
         },
         {
-          "uuid": "612cbd81-8f21-4ed3-87e6-2a649048a496",
+          "uuid": "6083e9f6-07ee-4f7c-bbac-698c4cfa1875",
           "title": "isEmailTaken",
           "fullFile": "/Users/nicksinazhenki/Downloads/Automated-Software-Testing-JS/test/usersListUtils.test.js",
           "file": "/test/usersListUtils.test.js",
@@ -1030,8 +1030,8 @@
               "context": null,
               "code": "expect(isEmailTaken(sampleUsers, 'gena@example.com')).to.be.true;",
               "err": {},
-              "uuid": "2b486a2e-9c7c-43ae-a4dc-93bb67342ff8",
-              "parentUUID": "612cbd81-8f21-4ed3-87e6-2a649048a496",
+              "uuid": "70e626e0-7890-4432-962c-8c8eb99bea07",
+              "parentUUID": "6083e9f6-07ee-4f7c-bbac-698c4cfa1875",
               "isHook": false,
               "skipped": false
             },
@@ -1048,8 +1048,8 @@
               "context": null,
               "code": "expect(isEmailTaken(sampleUsers, 'nobody@example.com')).to.be.false;",
               "err": {},
-              "uuid": "918b567f-218f-413f-874f-0902f9593279",
-              "parentUUID": "612cbd81-8f21-4ed3-87e6-2a649048a496",
+              "uuid": "a4116428-044e-47bc-9939-253e3f0a6184",
+              "parentUUID": "6083e9f6-07ee-4f7c-bbac-698c4cfa1875",
               "isHook": false,
               "skipped": false
             },
@@ -1066,17 +1066,17 @@
               "context": null,
               "code": "expect(() => isEmailTaken(null, 'test@example.com')).to.throw('Users must be an array');",
               "err": {},
-              "uuid": "fc4c3692-44ec-4822-bcea-e23631a33fef",
-              "parentUUID": "612cbd81-8f21-4ed3-87e6-2a649048a496",
+              "uuid": "53d1e4ce-ee65-4728-ac73-925e076c8ae9",
+              "parentUUID": "6083e9f6-07ee-4f7c-bbac-698c4cfa1875",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2b486a2e-9c7c-43ae-a4dc-93bb67342ff8",
-            "918b567f-218f-413f-874f-0902f9593279",
-            "fc4c3692-44ec-4822-bcea-e23631a33fef"
+            "70e626e0-7890-4432-962c-8c8eb99bea07",
+            "a4116428-044e-47bc-9939-253e3f0a6184",
+            "53d1e4ce-ee65-4728-ac73-925e076c8ae9"
           ],
           "failures": [],
           "pending": [],
