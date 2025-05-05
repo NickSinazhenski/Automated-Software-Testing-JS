@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo ">>> RUNNING ESLINT..."
+npx lint-staged || exit 1
+
+echo ">>> RUNNING MOCHA..."
+npx mocha "test/**/*.test.js" || exit 1
